@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+.anadiv
+{
+	
+	width:80%;
+	border:1px solid #000;
+	margin:auto;
+	height:100%;
+	color:#000;}
+#menu 
+{	color:#CCC;
+	height: 100%;
+
+	float:left;
+	text-align:center;
+	font-weight: bold;
+	font-size:15px;	
+	margin-bottom:2%;
+	margin-top:2%;
+}
+#menu ul 
+{	
+	list-style-type: none;
+	font-size:15px;
+	width: 100px;
+	background-color:#000;
+	font-weight: bold;
+}
+#menu ul li a 
+{	display: block;
+	height: 40px;
+	width: 100px;
+	text-decoration: none;
+	color:#CCC;
+	font-weight: bold;
+	font-size:15px;
+	text-align: center;
+	line-height: 35px;
+}
+ #menu ul li a:hover 
+ {	display: block;
+	background-color:#F0F0F0;
+	height: 40px;
+	width: 100px;
+	font-weight: bold;
+	font-size:16px;
+	transition:0.8s;
+	text-decoration:underline;
+	color:#03C;
+	text-align: center;
+	line-height: 35px;}
+.icerik
+{
+
+	margin-bottom:2%;
+	margin-top:2%;
+	height:530px;
+	height:100%;
+	
+}
+
+.baslik
+{
+	font-size:33px;
+	padding:2%;
+	width:100%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-shadow:2px 2px 2px #FFFFFF;
+}
+.baslik a
+{
+	text-decoration:none;
+	font-weight:bold;
+	text-shadow:2px 2px 2px #0CF;
+}
+.slider
+{
+	position: relative;
+	width: 1000px;
+	height: 600px;
+	border: #000 solid 0px;
+	margin: auto;
+	overflow:hidden;
+}
+ .slider-content
+{
+	position: absolute;
+	width: 400%;
+	left: 0;
+	animation: slide 20s infinite;
+}
+.slider-content:hover
+{
+	animation-play-state:paused;
+}
+.slider-item
+{
+	width: 25%;
+	float: left;
+}
+@keyframes slide 
+{
+	0%
+{transform: translateX(0px);}
+10%
+{transform: translateX(0px);}
+20%
+{transform: translateX(-1000px);}
+30%
+{transform: translateX(-1000px);}
+40%
+{transform: translateX(-2000px);}
+50%
+{transform: translateX(-2000px);}
+60%
+{transform: translateX(-3000px);}
+70%
+{transform: translateX(-3000px);}
+80%
+{transform: translateX(0px);}
+}
+#footer 
+{	background-color: #000;
+	height:20%;
+	float:left;
+	text-align:center;
+	width:100%;
+	margin-top:5px;
+}
+.fyazii
+{	color:#999;
+	font-size:20px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+#fyazi
+{	color:#999;
+	font-size:14px;
+	font-family:Tahoma, Geneva, sans-serif;}
+#br1
+{
+	border:2px solid #006;
+	margin-left:12%;
+	width:80%;
+	height:450px;
+}
+.baslikbrn
+{
+	font-size:22px;
+	color:#003399;
+	text-shadow:2px 2px 2px #999;
+}
+.baslikb
+{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#000066;
+}
+#prgf
+{
+	font-size:11px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	
+}
